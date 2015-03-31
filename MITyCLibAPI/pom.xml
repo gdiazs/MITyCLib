@@ -1,0 +1,16 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>es.mityc</groupId>
+		<artifactId>MITyCLib</artifactId>
+		<version>1.1.7-SNAPSHOT</version>
+	</parent>
+	<artifactId>MITyCLibAPI</artifactId>
+	<name>MITyCLibAPI</name>
+	<description>MITyCLibAPI es una librería que sirve de base para el resto de componentes de firma del MITyC. Esta librería contiene la funcionalidad base común al resto de componentes así como las definiciones de los interfaces que permite la comunicación, extensibilidad y adaptación de los componentes entre sí y con otros frameworks. </description>
+	
+	<dependencies>
+
+	</dependencies>
+</project>
