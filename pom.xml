@@ -115,5 +115,6 @@
 	<modules>
 		<module>MITyCLibAPI</module>
 		<module>MITyCLibCert</module>
+		<module>MITyCLibCrypt</module>
 	</modules>
 </project>
