@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>es.mityc</groupId>
+		<groupId>es.mityc.jumbo.adsi</groupId>
 		<artifactId>MITyCLib</artifactId>
 		<version>1.1.7-SNAPSHOT</version>
 	</parent>
@@ -11,17 +11,17 @@
 	<description>MITyCLibCrypt es una librería que proporciona la funcionalidad necesaria para cifrar y descifrar datos de diversas maneras.</description>
 	<dependencies>
 		<dependency>
-			<groupId>es.mityc</groupId>
+			<groupId>es.mityc.jumbo.adsi</groupId>
 			<artifactId>MITyCLibAPI</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>es.mityc</groupId>
+			<groupId>es.mityc.jumbo.adsi</groupId>
 			<artifactId>MITyCLibCert</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>es.mityc</groupId>
+			<groupId>es.mityc.jumbo.adsi</groupId>
 			<artifactId>MITyCLibCert</artifactId>
 			<version>${project.version}</version>
 			<classifier>tests</classifier>

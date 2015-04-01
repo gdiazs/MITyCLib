@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+	<!--
+	
+	  @(#)package.html  1.60 98/01/27
+	
+  Copyright 2013 Ministerio de Industria, Energía y Turismo
+ 
+  Este fichero es parte de "Componentes de Firma XAdES".
+ 
+  Licencia con arreglo a la EUPL, Versión 1.1 o –en cuanto sean aprobadas por la Comisión Europea– versiones posteriores de la EUPL (la Licencia);
+  Solo podrá usarse esta obra si se respeta la Licencia.
+ 
+  Puede obtenerse una copia de la Licencia en:
+ 
+  http://joinup.ec.europa.eu/software/page/eupl/licence-eupl
+ 
+  Salvo cuando lo exija la legislación aplicable o se acuerde por escrito, el programa distribuido con arreglo a la Licencia se distribuye «TAL CUAL»,
+  SIN GARANTÍAS NI CONDICIONES DE NINGÚN TIPO, ni expresas ni implícitas.
+  Véase la Licencia en el idioma concreto que rige los permisos y limitaciones que establece la Licencia.
+
+	 
+	-->
+	</head>
+	<body bgcolor="white">
+	
+		<!-- Aquí una frase que describe el uso del paquete --> 
+		<p>Implementaci&oacute;n del framework de validadores de confianza de MITyCLibAPI para pol&iacute;tica de confianza del MITyC.</p>
+		
+		<!--  Aquí la descripción completa del paquete -->
+		<p>Se implementa una solución propia basada en 4 tipos de validadores de confianza diferenciados que implementan los interfaces:
+		  <ul>
+		      <li>{@link es.mityc.javasign.trust.ITrustSignCerts}: validador de confianza de cadenas de certificados.s</li>
+              <li>{@link es.mityc.javasign.trust.ITrustCRLEmisor}: validador de confianza de CRLs.</li>
+              <li>{@link es.mityc.javasign.trust.ITrustOCSPProducer}: validador de confianza de respuestas OCSP.</li>
+              <li>{@link es.mityc.javasign.trust.ITrustTSProducer}: validador de confianza de sellos de tiempo.</li>
+		  </ul>
+		  Se implementa una factoría propia ({@link es.mityc.javasign.trust.TrustExtendFactory}) que instancia los validadores según el tipo requerido.
+		</p>
+		<p>La nueva factoría utiliza los mismo ficheros de configuración que la antigua factoría (trust/trust.properties) para asociar claves
+		con managers de confianza aplicando un formato de clave específico. Según el tipo de validador buscado se incluye un sufijo en la clave:
+            <ul>
+                <li><b>.SignCerts</b>: para validador de cadenas de certificados</li>
+                <li><b>.CRLEmisor</b>: para validador de CRLs</li>
+                <li><b>.OCSPProducer</b>: para validador de respuestas OCSP</li>
+                <li><b>.TSProducer</b>: para validador de sellos de tiempo TSA</li>
+            </ul>
+            Ejemplo de uso:
+            <pre>
+            (((TrustExtendFactory)TrustFactory.getInstance()).getSignCertsTruster("mityc"));
+            </pre>
+            donde hay un fichero de propiedades con el valor
+            <pre>
+            mityc.SignCerts=&lt;nombre de la clase del manager de confianza de cadenas de certificados que implemeta el interfaz ITrustSignCerts&gt;
+            </pre>
+        </p>
+        <p>El paquete incluye una implementación propia de managers de confianza basados en ficheros de propiedades. Estos ficheros de
+        propiedades indican los recursos que contienen los certificados en los que se confía (como emisores directos o como issuers de los
+        emisores).</p>
+	
+	</body>
+</html>

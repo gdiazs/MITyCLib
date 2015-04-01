@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>es.mityc.jumbo.adsi</groupId>
+    <artifactId>MITyCLib</artifactId>
+    <version>1.1.7-SNAPSHOT</version>
+  </parent>
+  <artifactId>MITyCLibTrust</artifactId>
+  <name>MITyCLibTrust</name>
+  <description>MITyCLibTrust es una librería que proporciona implementaciones concretas de validadores de confianza, de acuerdo con las interfaces definidas en MITyCLibAPI. Además permite reconstruir cadenas de certificación a partir del certificado proporcionado, ya que en su interior contiene un repositorio de certificados de CA. 
+
+http://oficinavirtual.mityc.es/componentes/MITyCLibTrust/index.html</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>es.mityc.jumbo.adsi</groupId>
+  		<artifactId>MITyCLibAPI</artifactId>
+  		<version>${project.version}</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>es.mityc.jumbo.adsi</groupId>
+  		<artifactId>MITyCLibCrypt</artifactId>
+  		<version>${project.version}</version>
+  	</dependency>
+  </dependencies>
+</project>
