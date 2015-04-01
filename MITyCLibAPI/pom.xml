@@ -9,8 +9,21 @@
 	<artifactId>MITyCLibAPI</artifactId>
 	<name>MITyCLibAPI</name>
 	<description>MITyCLibAPI es una librería que sirve de base para el resto de componentes de firma del MITyC. Esta librería contiene la funcionalidad base común al resto de componentes así como las definiciones de los interfaces que permite la comunicación, extensibilidad y adaptación de los componentes entre sí y con otros frameworks. </description>
-	
+
 	<dependencies>
 
+		<!-- bouncycastle -->
+		<dependency>
+			<groupId>org.bouncycastle</groupId>
+			<artifactId>bcmail-jdk16</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.bouncycastle</groupId>
+			<artifactId>bcprov-jdk16</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.bouncycastle</groupId>
+			<artifactId>bctsp-jdk16</artifactId>
+		</dependency>
 	</dependencies>
 </project>
