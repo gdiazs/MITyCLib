@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:validacion xmlns:tns="http://www.mityc.es/OCSPServersInfo"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mityc.es/OCSPServersInfo OCSPServersInfo.xsd ">
+	<tns:proveedores id="proveedores">
+		<tns:version>1.0</tns:version>
+		<tns:fecha>2007-09-21T12:00:00</tns:fecha>
+		<tns:proveedor nombre="DNI electronico"
+			descripcion="DNI electronico">
+			<!-- 002 -->
+			<tns:ca nameHash="5454af8b4ad0b423813e6a27fd3bd7e9f5490dcc"
+				pkHash="3aa689ec15e8246471e0257ec9b1623107e906a2" />
+			<!-- 001 -->
+			<tns:ca nameHash="d5355fd02a340cbe53962337fca8ea2a0000423b"
+				pkHash="1a89a8c5ee8f765d557189f33b35bdaa0500956f" />
+			<!-- 003 -->
+			<tns:ca nameHash="3d998a6095c925bf8c5932ccf08424d98c7f057a"
+				pkHash="039543407488d46156854e9bba7c4054f04fa2ee" />
+
+			<tns:servidorOCSP URI="http://ocsp.ctpa.mityc.es"
+				descripcion="Servidor OCSP Mityc" />
+			<tns:servidorOCSP URI="http://ocsp.dnie.es"
+				descripcion="Servidor OCSP DNIe" />
+		</tns:proveedor>
+
+		<tns:proveedor nombre="ANF" descripcion="ANF">
+			<!-- [ANF] anf1.cer -->
+			<tns:ca nameHash="7df3dea0664e5f0b99b27da5072f62708862bd8b"
+				pkHash="be3bf6b431b773244839c557139475aa9f813f2c" />
+			<!-- [ANF] anfRoot1.cer -->
+			<tns:ca nameHash="7df3dea0664e5f0b99b27da5072f62708862bd8b"
+				pkHash="be3bf6b431b773244839c557139475aa9f813f2c" />
+			<tns:servidorOCSP
+				URI="http://ocsp1.anf.es/cs/ocspRequest.do"
+				descripcion="Servidor OCSP ANF" />
+		</tns:proveedor>
+
+		<tns:proveedor nombre="ACCV"
+			descripcion="Autoritat de Certificació de la Comunitat Valenciana">
+			<!-- [CAGVA] cagva1.cer -->
+			<tns:ca nameHash="72dbf6b27f8c68d87484d8e9d1f3ce0ee2fab6ad"
+				pkHash="1b9085ebccc25d36649beac624744130c9ca2452" />
+			<!-- [CAGVA] cagva2.cer -->
+			<tns:ca nameHash="ac8ed959113d894f5905370888e9e8c5883d8e9e"
+				pkHash="b378ed05a579413ac2f4c05228ff63433fbfe381" />
+			<!-- [CAGVA] cagva3.cer -->
+			<tns:ca nameHash="28020c34c47867aacbb660073c7ea49e7702c07d"
+				pkHash="714c0354f2726b5c8d1e71d458820dd71f57b7dd" />
+			<!-- [CAGVA] cagvaroot.cer -->
+			<tns:ca nameHash="3b94c52379217f03b1361591b457a08dc1c42318"
+				pkHash="7b35d340d21c781966ef741028dc3e4fb27804fc" />
+			<tns:servidorOCSP URI="http://ocsp.pki.gva.es"
+				descripcion="Servidor OCSP ACCV" />
+		</tns:proveedor>
+
+		<tns:proveedor nombre="Camerfirma" descripcion="Camerfirma">
+			<!-- [CAMERFIRMA] camer1.cer -->
+			<tns:ca nameHash="7df3f9ff22af9d3286498a2f101dcb8212d7aaf4"
+				pkHash="70c195fa5da516be62e8a47de3d4645fc4e13e9d" />
+			<!-- [CAMERFIRMA] camer2.cer -->
+			<tns:ca nameHash="f1167af95b5810951d98246a5456546fc678697a"
+				pkHash="b61f4e9d1c68912e377260e1468f5aa52a3131b9" />
+			<!-- [CAMERFIRMA] camer3.cer -->
+			<tns:ca nameHash="7899447ddf110fc35bc262fe0a16adb5b3177162"
+				pkHash="0d7c2869529f18afc74d9c2e4c72055256d1b7a5" />
+			<!-- [CAMERFIRMA] camer4.cer -->
+			<tns:ca nameHash="77787055f747ab1fde2c91775851259d789745df"
+				pkHash="bebc08d42eba004c80dc2667b4a5d8ddc34a1af9" />
+			<!-- [CAMERFIRMA] cameroot1.cer -->
+			<tns:ca nameHash="78ba17df83cb3108de48d42963cce8e585d076e6"
+				pkHash="439c369fb09e304dc6ce5fad10abe503a5faa914" />
+			<!-- [CAMERFIRMA] cameroot2.cer -->
+			<tns:ca nameHash="eae4adf20571fbdc6e0569d9f2893a303360eaaf"
+				pkHash="e394f5b14de9dba1295b578b4d760676e1d1a28a" />
+			<!-- [CAMERFIRMA] cameroot3.cer -->
+			<tns:ca nameHash="37e13cd1665375d77037ffc8850467e6849cbf57"
+				pkHash="c5dd44be4cd393fc043da7d732280bfbb02c983a" />
+			<!-- [CAMERFIRMA] cameroot4.cer -->
+			<tns:ca nameHash="36017480ccaca46245d2b83fe6c4cce929562784"
+				pkHash="808790f1cdd574ff3e7c3277af1aa4eec7115484" />
+			<tns:servidorOCSP URI="http://ocsp.camerfirma.com"
+				descripcion="Servidor OCSP Camerfirma" />
+		</tns:proveedor>
+
+		<tns:proveedor nombre="Catcert"
+			descripcion="Agència Catalana de Certificació">
+			<!-- [CATCERT] catcerRoot0.cer -->
+			<tns:ca nameHash="749925b4b9a7c38ddbb35bbc51c6d46ef6dc83e1"
+				pkHash="a0c38b44aa37a545bf97805ad1f178a29be95d8d" />
+			<!-- [CATCERT] catcerRoot1.cer -->
+			<tns:ca nameHash="ee1d88b83a154ecacb0eb704b29f1cf5ab9f4a14"
+				pkHash="4cec8d49d42b02039ad048300a4b6bbd317aa634" />
+			<!-- [CATCERT] catcerRoot2.cer -->
+			<tns:ca nameHash="677d6341ffde072ea2d4119f7d4f39ec3b66fc2b"
+				pkHash="cd92c0454634760dd2f45ba2741dabcf6cb60bb9" />
+			<!-- [CATCERT] catcerRoot3.cer -->
+			<tns:ca nameHash="d286f6bd9a335a9fd512f2f53fc68c0a88f4f5e1"
+				pkHash="316a5c0a464e37af42e3b0602b0c0f2d2f93df14" />
+			<!-- [CATCERT] catcerRoot4.cer -->
+			<tns:ca nameHash="5a435534c213db6d35e53720032aa1bb46e5ae31"
+				pkHash="1e1398eac2425955b6de2f3eca9fc9eacb2e2c14" />
+			<!-- [CATCERT] catcerRoot5.cer -->
+			<tns:ca nameHash="521f8d94727717f1e683b4410da6abcc4412d3ae"
+				pkHash="489f8d86d1cbf1d68a527b7f15a20a51f897fe0b" />
+			<!-- [CATCERT] catCert-Ecal1.cer -->
+			<tns:ca nameHash="54dfe9863fc8ae6d17b1041168264720c1637be1"
+				pkHash="05b7ed4f1652ddfae692c0a27279566054c22413" />
+			<!-- [CATCERT] catCert-Ecal2.cer -->
+			<tns:ca nameHash="f1e12942a791532d8739862fbc871961acb7fd10"
+				pkHash="bb2ea92e30d49c1073b5fda977c23ec35197b93e" />
+			<!-- [CATCERT] catCert-EcIdIssuercat1.cer -->
+			<tns:ca nameHash="54dfe9863fc8ae6d17b1041168264720c1637be1"
+				pkHash="05b7ed4f1652ddfae692c0a27279566054c22413" />
+			<!-- [CATCERT] catCert-EcIdIssuercat2.cer -->
+			<tns:ca nameHash="f1e12942a791532d8739862fbc871961acb7fd10"
+				pkHash="bb2ea92e30d49c1073b5fda977c23ec35197b93e" />
+			<!-- [CATCERT] catCert-Ecsafp1.cer -->
+			<tns:ca nameHash="54dfe9863fc8ae6d17b1041168264720c1637be1"
+				pkHash="05b7ed4f1652ddfae692c0a27279566054c22413" />
+			<!-- [CATCERT] catCert-Ecsafp2.cer -->
+			<tns:ca nameHash="f1e12942a791532d8739862fbc871961acb7fd10"
+				pkHash="bb2ea92e30d49c1073b5fda977c23ec35197b93e" />
+			<tns:servidorOCSP URI="https://ocsp.catcert.net"
+				descripcion="Servidor OCSP Catcert" />
+		</tns:proveedor>
+
+		<tns:proveedor nombre="FirmaProfesional"
+			descripcion="FirmaProfesional">
+			<!-- [FIRMAPROFESIONAL] firma1.cer -->
+			<tns:ca nameHash="3cc35dc302bf11e8f7dd59ba39ddabcdd54fde23"
+				pkHash="8b50575ac1bd9200a6b7e5855dc3ddb6b58690d2" />
+			<!-- [FIRMAPROFESIONAL] firmaroot.cer -->
+			<tns:ca nameHash="f0faa499145f94b09e3a8f719db69317fe1019b4"
+				pkHash="330ba066d1eadacede6293042852b5147f3868b7" />
+			<tns:servidorOCSP
+				URI="http://ocsp.firmaprofesional.com:8888"
+				descripcion="Servidor OCSP Firmaprofesional" />
+		</tns:proveedor>
+
+	</tns:proveedores>
+</tns:validacion>

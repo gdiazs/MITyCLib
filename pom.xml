@@ -117,5 +117,6 @@
 		<module>MITyCLibCert</module>
 		<module>MITyCLibCrypt</module>
 		<module>MITyCLibTrust</module>
+		<module>MITyCLibOCSP</module>
 	</modules>
 </project>

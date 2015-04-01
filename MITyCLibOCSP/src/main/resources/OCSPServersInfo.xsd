@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.mityc.es/OCSPServersInfo" xmlns:tns="http://www.mityc.es/OCSPServersInfo" elementFormDefault="qualified">
+	<element name="validacion" type="tns:validacionType" />
+	<complexType name="validacionType">
+		<sequence>
+			<element name="proveedores" type="tns:proveedoresType" />
+		</sequence>
+	</complexType>
+
+	<complexType name="proveedoresType">
+		<sequence>
+			<element name="version" type="string" minOccurs="0"/>
+			<element name="fecha" type="dateTime" />
+			<element name="proveedor" type="tns:proveedorType" maxOccurs="unbounded"/>
+		</sequence>
+		<attribute name="id" type="ID" use="required"/>
+	</complexType>
+	
+<!-- <element name="proveedor" type="tns:proveedorType" /> -->
+	<complexType name="proveedorType">
+		<sequence>
+			<element name="ca" type="tns:caType" maxOccurs="unbounded"/>
+			<element name="servidorOCSP" type="tns:servidorOCSPType" maxOccurs="unbounded"/>
+		</sequence>
+		<attribute name="nombre" type="string" use="required"/>
+		<attribute name="descripcion" type="string" use="required"/>
+	</complexType>
+	
+	<complexType name="caType">
+		<attribute name="nameHash" type="hexBinary" use="required"/>
+		<attribute name="pkHash" type="hexBinary" use="required"/>
+	</complexType>
+	
+	<complexType name="servidorOCSPType">
+		<attribute name="URI" type="anyURI" use="required"/>
+		<attribute name="descripcion" type="string" use="required"/>
+	</complexType>
+	
+</schema>
