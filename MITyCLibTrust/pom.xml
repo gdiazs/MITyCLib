@@ -21,5 +21,10 @@ http://oficinavirtual.mityc.es/componentes/MITyCLibTrust/index.html</description
   		<artifactId>MITyCLibCrypt</artifactId>
   		<version>${project.version}</version>
   	</dependency>
+  	<dependency>
+  		<groupId>es.mityc.jumbo.adsi</groupId>
+  		<artifactId>MITyCLibTSA</artifactId>
+  		<version>1.1.7-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
 </project>

@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>es.mityc.jumbo.adsi</groupId>
+		<artifactId>MITyCLib</artifactId>
+		<version>1.1.7-SNAPSHOT</version>
+	</parent>
+	<artifactId>MITyCLibTSA</artifactId>
+	<name>MITyCLibTSA</name>
+	<description>MITycLibTSA es una Librería que contiene la lógica necesaria para obtener y manejar sellos de tiempo de autoridades de sellado a través de la implementación del apéndice A.1 de la especificación RFC 2560 para tratar las peticiones y obtener dichos sellos de tiempo vía http teniendo en cuenta las normas descritas en el punto 3.4 de la especificación RFC 3161</description>
+	<properties>
+		<commons-httpclient.version>3.0.1</commons-httpclient.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>commons-httpclient</groupId>
+			<artifactId>commons-httpclient</artifactId>
+			<version>${commons-httpclient.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>es.mityc.jumbo.adsi</groupId>
+			<artifactId>MITyCLibAPI</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+	</dependencies>
+</project>

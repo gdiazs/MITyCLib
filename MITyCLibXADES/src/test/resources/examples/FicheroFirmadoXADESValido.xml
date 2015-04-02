@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<namespace:Facturae xmlns:namespace="http://www.facturae.es/Facturae/2007/v3.0/Facturae" xmlns:namespace2="http://uri.etsi.org/01903/v1.2.2#" xmlns:namespace3="http://www.w3.org/2000/09/xmldsig#"><FileHeader><SchemaVersion>3.0</SchemaVersion><Modality>I</Modality><InvoiceIssuerType>EM</InvoiceIssuerType><Batch><BatchIdentifier>A2847281990002488FCC</BatchIdentifier><InvoicesCount>1</InvoicesCount><TotalInvoicesAmount><TotalAmount>40251.25</TotalAmount></TotalInvoicesAmount><TotalOutstandingAmount><TotalAmount>40251.25</TotalAmount></TotalOutstandingAmount><TotalExecutableAmount><TotalAmount>40251.25</TotalAmount></TotalExecutableAmount><InvoiceCurrencyCode>EUR</InvoiceCurrencyCode></Batch></FileHeader><Parties><SellerParty><TaxIdentification><PersonTypeCode>J</PersonTypeCode><ResidenceTypeCode>R</ResidenceTypeCode><TaxIdentificationNumber>A28472819</TaxIdentificationNumber></TaxIdentification><LegalEntity><CorporateName>FUJITSU SERVICES, S.A.</CorporateName><AddressInSpain><Address>CAMINO CERRO DE LOS GAMOS, 1</Address><PostCode>28224</PostCode><Town>POZUELO DE ALARCÓN</Town><Province>MADRID</Province><CountryCode>ESP</CountryCode></AddressInSpain></LegalEntity></SellerParty><BuyerParty><TaxIdentification><PersonTypeCode>J</PersonTypeCode><ResidenceTypeCode>R</ResidenceTypeCode><TaxIdentificationNumber>S2800214E</TaxIdentificationNumber></TaxIdentification><LegalEntity><CorporateName>MINISTERIO DE INDUSTRIA, TURISMO Y COMERCIO</CorporateName><AddressInSpain><Address>PSO. CASTELLANA, 160-PLTA 1</Address><PostCode>28046</PostCode><Town>MADRID</Town><Province>MADRID</Province><CountryCode>ESP</CountryCode></AddressInSpain></LegalEntity></BuyerParty></Parties><Invoices><Invoice><InvoiceHeader><InvoiceNumber>90002488</InvoiceNumber><InvoiceSeriesCode>FCC</InvoiceSeriesCode><InvoiceDocumentType>FC</InvoiceDocumentType><InvoiceClass>OO</InvoiceClass></InvoiceHeader><InvoiceIssueData><IssueDate>2009-12-30</IssueDate><InvoicingPeriod><StartDate>2009-12-30</StartDate><EndDate>2009-12-30</EndDate></InvoicingPeriod><InvoiceCurrencyCode>EUR</InvoiceCurrencyCode><TaxCurrencyCode>EUR</TaxCurrencyCode></InvoiceIssueData><TaxesOutputs><Tax><TaxTypeCode>01</TaxTypeCode><TaxRate>16.00</TaxRate><TaxableBase><TotalAmount>34699.35</TotalAmount></TaxableBase><TaxAmount><TotalAmount>5551.90</TotalAmount></TaxAmount></Tax></TaxesOutputs><InvoiceTotals><TotalGrossAmount>34699.35</TotalGrossAmount><TotalGrossAmountBeforeTaxes>34699.35</TotalGrossAmountBeforeTaxes><TotalTaxOutputs>5551.90</TotalTaxOutputs><TotalTaxesWithheld>0.00</TotalTaxesWithheld><InvoiceTotal>40251.25</InvoiceTotal><TotalOutstandingAmount>40251.25</TotalOutstandingAmount><TotalExecutableAmount>40251.25</TotalExecutableAmount></InvoiceTotals><Items><InvoiceLine><IssuerContractReference> </IssuerContractReference><PurchaseOrderReference>709201.0</PurchaseOrderReference><DeliveryNotesReferences><DeliveryNote><DeliveryNoteNumber> </DeliveryNoteNumber></DeliveryNote></DeliveryNotesReferences><ItemDescription>NUM.EXP.: J07.092.01-SERVICIO DE MONITORIZACION Y CONTINUIDAD 24X7 DE LOS SERVICIOS INFORMATICOS DEL MINISTERIO DE INDUSTRIA, TURISMO Y COMERCIO.</ItemDescription><Quantity>1.0</Quantity><UnitOfMeasure>01</UnitOfMeasure><UnitPriceWithoutTax>34699.350000</UnitPriceWithoutTax><TotalCost>34699.35</TotalCost><DiscountsAndRebates><Discount><DiscountReason>Descuento al cliente</DiscountReason><DiscountRate>0.0000</DiscountRate><DiscountAmount>0.00</DiscountAmount></Discount></DiscountsAndRebates><GrossAmount>34699.35</GrossAmount><TaxesOutputs><Tax><TaxTypeCode>01</TaxTypeCode><TaxRate>16.00</TaxRate><TaxableBase><TotalAmount>34699.35</TotalAmount></TaxableBase><TaxAmount><TotalAmount>5551.90</TotalAmount></TaxAmount></Tax></TaxesOutputs><TransactionDate>2009-12-30</TransactionDate></InvoiceLine></Items><PaymentDetails><Installment><InstallmentDueDate>2010-01-31</InstallmentDueDate><InstallmentAmount>40251.25</InstallmentAmount><PaymentMeans>04</PaymentMeans><AccountToBeCredited><IBAN>632210451854</IBAN><BankCode>0049</BankCode><BranchCode>1892</BranchCode></AccountToBeCredited></Installment></PaymentDetails></Invoice></Invoices><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.2.2#" Id="Signature">
+<ds:SignedInfo Id="Signature-SignedInfo">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID" Type="http://uri.etsi.org/01903/v1.2.2#SignedProperties" URI="#Signature-SignedProperties">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>RVF8APXVTqTXqXTW93AXCavdd3I=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>yWsgprJP+lxrdKyRW8OhRNsdTGk=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>oulCm0fbbmG1njE2tyVO92qkI94=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue">
+e/rXM8gUVkd1jVtlk60/strZfJfjlfSsvQIFrvojBtXubSfoyMnD1iUJVQJD2YcG2tDHaLVxWezR
+t+DQxEYFLJHuTVyGgw2g7Y2EGe48mQCR7+Sc97cG2va3sqSoXAy2BFS1mNjUmEg0gmAjSGanE6Qz
+AgisRSnALSJ9cTUIFEs=
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIIlzCCB3+gAwIBAgIJAP/ueWioQJioMA0GCSqGSIb3DQEBBQUAMIHgMQswCQYDVQQGEwJFUzEu
+MCwGCSqGSIb3DQEJARYfYWNfY2FtZXJmaXJtYV9jY0BjYW1lcmZpcm1hLmNvbTFDMEEGA1UEBxM6
+TWFkcmlkIChzZWUgY3VycmVudCBhZGRyZXNzIGF0IHd3dy5jYW1lcmZpcm1hLmNvbS9hZGRyZXNz
+KTESMBAGA1UEBRMJQTgyNzQzMjg3MRkwFwYDVQQKExBBQyBDYW1lcmZpcm1hIFNBMS0wKwYDVQQD
+EyRBQyBDYW1lcmZpcm1hIENlcnRpZmljYWRvcyBDYW1lcmFsZXMwHhcNMDkwMzAyMTYwMTA3WhcN
+MTEwMzAyMTYwMTA3WjCCAVoxCzAJBgNVBAYTAkVTMRwwGgYDVQQDFBNDYXJsb3MgR2FyY+1hIE51
+8WV6MSYwJAYJKoZIhvcNAQkBFhdjZ2FyY2lhQG1haWwuZnVqaXRzdS5lczESMBAGA1UEBRMJNTEz
+MjE4NDROMRUwEwYDVQQEFAxHYXJj7WEgTnXxZXoxDzANBgNVBCoTBkNhcmxvczEbMBkGCisGAQQB
+gYcuHgMTC0VTQTI4NDcyODE5MR8wHQYDVQQKExZGVUpJVFNVIFNFUlZJQ0VTICBTLkEuMSAwHgYD
+VQQLExdGQUNUVVJBQ0lPTiBFTEVDVFJPTklDQTETMBEGA1UECxMKRklOQU5DSUVSTzEjMCEGA1UE
+DBQaRElSRUNUT1IgREUgQURNSU5JU1RSQUNJ004xLzAtBgNVBA0TJlF1YWxpZmllZCBDZXJ0aWZp
+Y2F0ZTogQ0FNLVBGRi1TVy1LUFNDMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDH9nOWD1zM
+CWOdQC+hnFZ+TU+306C7dYLik4zqaPSpZIUwI76ZpMBGUHtTEPy7Hih24WfaF2xUMa28zdRUPWfG
+lNnPJI9vHRViX3RLDwRSAY1CjwQzbnR7WeyC29JJiF80fH1ltNaVN9kuhq7PysVmccw5K85BFj3b
+anqrGoPsHwIDAQABo4IEWTCCBFUwDAYDVR0TAQH/BAIwADAOBgNVHQ8BAf8EBAMCBsAwQgYJYIZI
+AYb4QgEDBDUWM1VSSTpodHRwOi8vd3d3LmNhbWVyZmlybWEuY29tL2FjX2NhbWVyZmlybWFfY2Mu
+Y2dpPzBGBglghkgBhvhCAQgEORY3VVJJOmh0dHA6Ly9jcHMuY2FtZXJmaXJtYS5jb20vY3BzL2Fj
+X2NhbWVyZmlybWFfY2MuaHRtbDAdBgNVHQ4EFgQU7z+Wz/9Ov9DxqiPE8j/CozY1vdYweAYIKwYB
+BQUHAQEEbDBqMEAGCCsGAQUFBzAChjRodHRwOi8vd3d3LmNhbWVyZmlybWEuY29tL2NlcnRzL2Fj
+X2NhbWVyZmlybWFfY2MuY3J0MCYGCCsGAQUFBzABhhpodHRwOi8vb2NzcC5jYW1lcmZpcm1hLmNv
+bTCBqwYDVR0jBIGjMIGggBS2H06dHGiRLjdyYOFGj1qlKjExuaGBhKSBgTB/MQswCQYDVQQGEwJF
+VTEnMCUGA1UEChMeQUMgQ2FtZXJmaXJtYSBTQSBDSUYgQTgyNzQzMjg3MSMwIQYDVQQLExpodHRw
+Oi8vd3d3LmNoYW1iZXJzaWduLm9yZzEiMCAGA1UEAxMZQ2hhbWJlcnMgb2YgQ29tbWVyY2UgUm9v
+dIIBBTB2BgNVHR8EbzBtMDSgMqAwhi5odHRwOi8vY3JsLmNhbWVyZmlybWEuY29tL2FjX2NhbWVy
+ZmlybWFfY2MuY3JsMDWgM6Axhi9odHRwOi8vY3JsMS5jYW1lcmZpcm1hLmNvbS9hY19jYW1lcmZp
+cm1hX2NjLmNybDAiBgNVHREEGzAZgRdjZ2FyY2lhQG1haWwuZnVqaXRzdS5lczAqBgNVHRIEIzAh
+gR9hY19jYW1lcmZpcm1hX2NjQGNhbWVyZmlybWEuY29tMIGBBglghkgBhvhCAQ0EdBZyUXVhbGlm
+aWVkIENlcnRpZmljYXRlIGZvciBFbGVjdHJvbmljIEludm9pY2luZyAgT05MWS4gLSBDZXJ0aWZp
+Y2FkbyBSZWNvbm9jaWRvLCBTT0xPIHBhcmEgRmFjdHVyYWNpb24gZWxlY3Ryb25pY2EuMIHkBgNV
+HSAEgdwwgdkwgdYGDSsGAQQBgYcuCgkHAQEwgcQwPwYIKwYBBQUHAgEWM2h0dHA6Ly9jcHMuY2Ft
+ZXJmaXJtYS5jb20vY3BzL2FjX2NhbWVyZmlybWFfY2MuaHRtbDCBgAYIKwYBBQUHAgIwdBpyUXVh
+bGlmaWVkIENlcnRpZmljYXRlLCBmb3IgRWxlY3Ryb25pYyBJbnZvaWNpbmcgT05MWS4gLSBDZXJ0
+aWZpY2FkbyBSZWNvbm9jaWRvLCBTT0xPIHBhcmEgRmFjdHVyYWNpb24gZWxlY3Ryb25pY2EuMC8G
+CCsGAQUFBwEDBCMwITAIBgYEAI5GAQEwFQYGBACORgECMAsTA0VVUgIBAAIBATANBgkqhkiG9w0B
+AQUFAAOCAQEAmZ89+//zwI8I8JdekAr3zpTXBgro8Cognb5GgrYPoaD9spGeCC0UMOIrAlX4b3CJ
+zvBfHJLzHy/CkI0o/7m+P+2THqQkMmPUn1a0nsJTk0JfKEOhMdWQMKjOJdH7EpSq0sAL/JKsUpuy
+SgwUqoOmiaUnt6IfO38conyGuMTJQAJVAOrsRDnqedlhV+hlF9JylcgnFIUEV1dUg8fm+NXuvDGy
+9iJrYNYjRElXqzWAk1BYoW4XGEkIgp3YaKNxG645cFPJkp5Ya+iHmRA7pZZVQdClpbptlYCa0tks
+IqIqlaRM5EwoY6KvCl1CFNQ7oxnY2lsDJdbc7PggNBl8EfmhcQ==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+x/Zzlg9czAljnUAvoZxWfk1Pt9Ogu3WC4pOM6mj0qWSFMCO+maTARlB7UxD8ux4oduFn2hdsVDGt
+vM3UVD1nxpTZzySPbx0VYl90Sw8EUgGNQo8EM250e1nsgtvSSYhfNHx9ZbTWlTfZLoauz8rFZnHM
+OSvOQRY922p6qxqD7B8=
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature-Object"><etsi:QualifyingProperties Target="#Signature"><etsi:SignedProperties Id="Signature-SignedProperties"><etsi:SignedSignatureProperties><etsi:SigningTime>2009-12-30T17:36:40+01:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>YyASC0MAZTTa6dgnWkBnirlTLwk=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC Camerfirma Certificados Camerales,O=AC Camerfirma SA,2.5.4.5=#1309413832373433323837,L=Madrid (see current address at www.camerfirma.com/address),1.2.840.113549.1.9.1=#161f61635f63616d65726669726d615f63634063616d65726669726d612e636f6d,C=ES</ds:X509IssuerName><ds:X509SerialNumber>18441811014535125160</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate><etsi:SignaturePolicyIdentifier><etsi:SignaturePolicyId><etsi:SigPolicyId><etsi:Identifier>http://www.facturae.es/politica de firma formato facturae/politica de firma formato facturae v3_0.pdf</etsi:Identifier><etsi:Description>Política de firma electrónica para facturación electrónica con formato Facturae</etsi:Description></etsi:SigPolicyId><etsi:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>HQvPemjDslVpcNmaJPpbHzhdZ50=</ds:DigestValue></etsi:SigPolicyHash></etsi:SignaturePolicyId></etsi:SignaturePolicyIdentifier><etsi:SignerRole><etsi:ClaimedRoles><etsi:ClaimedRole>emisor</etsi:ClaimedRole></etsi:ClaimedRoles></etsi:SignerRole></etsi:SignedSignatureProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></namespace:Facturae>

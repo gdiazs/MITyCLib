@@ -118,5 +118,7 @@
 		<module>MITyCLibCrypt</module>
 		<module>MITyCLibTrust</module>
 		<module>MITyCLibOCSP</module>
+		<module>MITyCLibXADES</module>
+		<module>MITyCLibTSA</module>
 	</modules>
 </project>

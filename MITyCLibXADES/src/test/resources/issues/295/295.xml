@@ -1,0 +1,350 @@
+<n1:Facturae xmlns:n1="http://www.facturae.es/Facturae/2007/v3.0/Facturae">
+  <FileHeader>
+    <SchemaVersion>3.0</SchemaVersion>
+    <Modality>I</Modality>
+    <InvoiceIssuerType>TE</InvoiceIssuerType>
+    <ThirdParty>
+      <TaxIdentification>
+        <PersonTypeCode>J</PersonTypeCode>
+        <ResidenceTypeCode>R</ResidenceTypeCode>
+        <TaxIdentificationNumber>ESG50000819</TaxIdentificationNumber>
+      </TaxIdentification>
+      <LegalEntity>
+        <CorporateName>Caja de Ahorros de la Inmaculada de Aragón</CorporateName>
+        <TradeName>Caja Inmaculada</TradeName>
+        <AddressInSpain>
+          <Address>Paseo de la Independencia, nº 10</Address>
+          <PostCode>50004</PostCode>
+          <Town>Zaragoza</Town>
+          <Province>Zaragoza</Province>
+          <CountryCode>ESP</CountryCode>
+        </AddressInSpain>
+      </LegalEntity>
+    </ThirdParty>
+    <Batch>
+      <BatchIdentifier>B99083404SP9-80482</BatchIdentifier>
+      <InvoicesCount>1</InvoicesCount>
+      <TotalInvoicesAmount>
+        <TotalAmount>1913.59</TotalAmount>
+      </TotalInvoicesAmount>
+      <TotalOutstandingAmount>
+        <TotalAmount>1913.59</TotalAmount>
+      </TotalOutstandingAmount>
+      <TotalExecutableAmount>
+        <TotalAmount>1913.59</TotalAmount>
+      </TotalExecutableAmount>
+      <InvoiceCurrencyCode>EUR</InvoiceCurrencyCode>
+    </Batch>
+  </FileHeader>
+  <Parties>
+    <SellerParty>
+      <TaxIdentification>
+        <PersonTypeCode>J</PersonTypeCode>
+        <ResidenceTypeCode>R</ResidenceTypeCode>
+        <TaxIdentificationNumber>ESB99083404</TaxIdentificationNumber>
+      </TaxIdentification>
+      <LegalEntity>
+        <CorporateName>SOCIEDAD DE PREVENCIÓN DE MAZ SEGURIDAD LABORAL S.L.U.</CorporateName>
+        <RegistrationData>
+          <RegisterOfCompaniesLocation>Zaragoza</RegisterOfCompaniesLocation>
+          <Sheet>Z-39.696</Sheet>
+          <Folio>146</Folio>
+          <Volume>3304</Volume>
+          <AdditionalRegistrationData>inscripción 1ª</AdditionalRegistrationData>
+        </RegistrationData>
+        <AddressInSpain>
+          <Address>Monasterio de Samos, nº 31-33</Address>
+          <PostCode>50013</PostCode>
+          <Town>ZARAGOZA</Town>
+          <Province>ZARAGOZA</Province>
+          <CountryCode>ESP</CountryCode>
+        </AddressInSpain>
+        <ContactDetails>
+          <Telephone>
+          </Telephone>
+          <TeleFax>976 21 41 27</TeleFax>
+          <WebAddress></WebAddress>
+          <ElectronicMail></ElectronicMail>
+        </ContactDetails>
+      </LegalEntity>
+    </SellerParty>
+    <BuyerParty>
+      <TaxIdentification>
+        <PersonTypeCode>J</PersonTypeCode>
+        <ResidenceTypeCode>R</ResidenceTypeCode>
+        <TaxIdentificationNumber>ESA31203128</TaxIdentificationNumber>
+      </TaxIdentification>
+      <LegalEntity>
+        <CorporateName>LIEBHERR INDUSTRIAS METALICAS S.A.</CorporateName>
+        <AddressInSpain>
+          <Address>Pol. Ind. Agustinos, c/E</Address>
+          <PostCode>31014</PostCode>
+          <Town>PAMPLONA</Town>
+          <Province>NAVARRA</Province>
+          <CountryCode>ESP</CountryCode>
+        </AddressInSpain>
+        <ContactDetails>
+          <Telephone>948 297 000</Telephone>
+          <TeleFax>948 297 029</TeleFax>
+          <WebAddress></WebAddress>
+          <ElectronicMail>jesus.goni@liebherr.com</ElectronicMail>
+        </ContactDetails>
+      </LegalEntity>
+    </BuyerParty>
+  </Parties>
+  <Invoices>
+    <Invoice>
+      <InvoiceHeader>
+        <InvoiceNumber>SP9-80482</InvoiceNumber>
+        <InvoiceDocumentType>FC</InvoiceDocumentType>
+        <InvoiceClass>OO</InvoiceClass>
+      </InvoiceHeader>
+      <InvoiceIssueData>
+        <IssueDate>2009-05-31</IssueDate>
+        <InvoiceCurrencyCode>EUR</InvoiceCurrencyCode>
+        <TaxCurrencyCode>EUR</TaxCurrencyCode>
+      </InvoiceIssueData>
+      <TaxesOutputs>
+        <Tax>
+          <TaxTypeCode>01</TaxTypeCode>
+          <TaxRate>0.00</TaxRate>
+          <TaxableBase>
+            <TotalAmount>1641.73</TotalAmount>
+          </TaxableBase>
+          <TaxAmount>
+            <TotalAmount>0.00</TotalAmount>
+          </TaxAmount>
+        </Tax>
+        <Tax>
+          <TaxTypeCode>01</TaxTypeCode>
+          <TaxRate>16.00</TaxRate>
+          <TaxableBase>
+            <TotalAmount>234.36</TotalAmount>
+          </TaxableBase>
+          <TaxAmount>
+            <TotalAmount>37.50</TotalAmount>
+          </TaxAmount>
+        </Tax>
+      </TaxesOutputs>
+      <InvoiceTotals>
+        <TotalGrossAmount>1641.73</TotalGrossAmount>
+        <TotalGrossAmountBeforeTaxes>00.00</TotalGrossAmountBeforeTaxes>
+        <TotalTaxOutputs>0.00</TotalTaxOutputs>
+        <TotalTaxesWithheld>00.00</TotalTaxesWithheld>
+        <InvoiceTotal>1913.59</InvoiceTotal>
+        <TotalOutstandingAmount>1913.59</TotalOutstandingAmount>
+        <TotalExecutableAmount>1913.59</TotalExecutableAmount>
+      </InvoiceTotals>
+      <Items>
+        <InvoiceLine>
+          <ItemDescription>Contrato nº: 6512-31/00003626/01-28222</ItemDescription>
+          <Quantity>0</Quantity>
+          <UnitPriceWithoutTax>0.000000</UnitPriceWithoutTax>
+          <TotalCost>0.00</TotalCost>
+          <GrossAmount>0.00</GrossAmount>
+          <TaxesOutputs>
+            <Tax>
+              <TaxTypeCode>05</TaxTypeCode>
+              <TaxRate>00.00</TaxRate>
+              <TaxableBase>
+                <TotalAmount>00.00</TotalAmount>
+              </TaxableBase>
+            </Tax>
+          </TaxesOutputs>
+        </InvoiceLine>
+        <InvoiceLine>
+          <ItemDescription>Periodo: Mes de Mayo de 2.009</ItemDescription>
+          <Quantity>0</Quantity>
+          <UnitPriceWithoutTax>0.000000</UnitPriceWithoutTax>
+          <TotalCost>0.00</TotalCost>
+          <GrossAmount>0.00</GrossAmount>
+          <TaxesOutputs>
+            <Tax>
+              <TaxTypeCode>05</TaxTypeCode>
+              <TaxRate>00.00</TaxRate>
+              <TaxableBase>
+                <TotalAmount>00.00</TotalAmount>
+              </TaxableBase>
+            </Tax>
+          </TaxesOutputs>
+        </InvoiceLine>
+        <InvoiceLine>
+          <ItemDescription>Concertación del Servicio de Prevención  </ItemDescription>
+          <Quantity>0</Quantity>
+          <UnitPriceWithoutTax>0.000000</UnitPriceWithoutTax>
+          <TotalCost>0.00</TotalCost>
+          <GrossAmount>0.00</GrossAmount>
+          <TaxesOutputs>
+            <Tax>
+              <TaxTypeCode>05</TaxTypeCode>
+              <TaxRate>00.00</TaxRate>
+              <TaxableBase>
+                <TotalAmount>00.00</TotalAmount>
+              </TaxableBase>
+            </Tax>
+          </TaxesOutputs>
+        </InvoiceLine>
+        <InvoiceLine>
+          <ItemDescription>Especialidad de Higiene Industrial y y Ergonomía: </ItemDescription>
+          <Quantity>0</Quantity>
+          <UnitPriceWithoutTax>0.000000</UnitPriceWithoutTax>
+          <TotalCost>0.00</TotalCost>
+          <GrossAmount>0.00</GrossAmount>
+          <TaxesOutputs>
+            <Tax>
+              <TaxTypeCode>05</TaxTypeCode>
+              <TaxRate>00.00</TaxRate>
+              <TaxableBase>
+                <TotalAmount>00.00</TotalAmount>
+              </TaxableBase>
+            </Tax>
+          </TaxesOutputs>
+        </InvoiceLine>
+        <InvoiceLine>
+          <ItemDescription>Trabajadores x €/trabajador/mes  </ItemDescription>
+          <Quantity>252.00</Quantity>
+          <UnitPriceWithoutTax>0.930000</UnitPriceWithoutTax>
+          <TotalCost>234.36</TotalCost>
+          <GrossAmount>234.36</GrossAmount>
+          <TaxesOutputs>
+            <Tax>
+              <TaxTypeCode>05</TaxTypeCode>
+              <TaxRate>00.00</TaxRate>
+              <TaxableBase>
+                <TotalAmount>00.00</TotalAmount>
+              </TaxableBase>
+            </Tax>
+          </TaxesOutputs>
+        </InvoiceLine>
+        <InvoiceLine>
+          <ItemDescription>Vigilancia de la salud  </ItemDescription>
+          <Quantity>252.00</Quantity>
+          <UnitPriceWithoutTax>4.200000</UnitPriceWithoutTax>
+          <TotalCost>1058.40</TotalCost>
+          <GrossAmount>1058.40</GrossAmount>
+          <TaxesOutputs>
+            <Tax>
+              <TaxTypeCode>05</TaxTypeCode>
+              <TaxRate>00.00</TaxRate>
+              <TaxableBase>
+                <TotalAmount>00.00</TotalAmount>
+              </TaxableBase>
+            </Tax>
+          </TaxesOutputs>
+        </InvoiceLine>
+        <InvoiceLine>
+          <ItemDescription>Apoyo a las funciones de vigilancia de la salud durante el mes. </ItemDescription>
+          <Quantity>1.00</Quantity>
+          <UnitPriceWithoutTax>583.330000</UnitPriceWithoutTax>
+          <TotalCost>583.33</TotalCost>
+          <GrossAmount>583.33</GrossAmount>
+          <TaxesOutputs>
+            <Tax>
+              <TaxTypeCode>05</TaxTypeCode>
+              <TaxRate>00.00</TaxRate>
+              <TaxableBase>
+                <TotalAmount>00.00</TotalAmount>
+              </TaxableBase>
+            </Tax>
+          </TaxesOutputs>
+        </InvoiceLine>
+      </Items>
+      <PaymentDetails>
+        <Installment>
+          <InstallmentDueDate>2009-06-30</InstallmentDueDate>
+          <InstallmentAmount>1913.59</InstallmentAmount>
+          <PaymentMeans>13</PaymentMeans>
+          <PaymentReconciliationReference>Número factura: SP9-80482</PaymentReconciliationReference>
+          <AccountToBeDebited>
+            <IBAN>
+            </IBAN>
+          </AccountToBeDebited>
+          <CollectionAdditionalInformation>Transferencia bancaria a C.A.I.:\20860017190700047206</CollectionAdditionalInformation>
+        </Installment>
+      </PaymentDetails>
+      <AdditionalData>
+        <RelayedInvoice>6512;6512</RelayedInvoice>
+        <InvoiceAdditionalInformation>Para la determinación del número de trabajadores a facturar, se tendrá en cuenta la forma de facturación elegida:1) Si la factura es mensual, se tomará el número de trabajadores de alta en la Empresa durante el mes anterior al  de la fecha de emisión de la factura (dato transferido a MAZ por la Tesorería General de la Seguridad Social).2) Si la factura es trimestral, semestral o anual, se tomará la media de los trabajadores de los 3, 6 o 12 últimos meses respectivamente.</InvoiceAdditionalInformation>
+      </AdditionalData>
+    </Invoice>
+  </Invoices>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xades="http://uri.etsi.org/01903/v1.2.2#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+<ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>P3PCNONpQAJYyAMlwinzBQEKLHE=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#KeyInfo">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>+szNoA7n+Ka53QM5Ck9FiV9zE/s=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="SignedPropertiesID" Type="http://uri.etsi.org/01903/v1.2.2#SignedProperties" URI="#Signature-SignedProperties">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>ItTCeAZb+6RSpeYdgWKT2VjU5Ms=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+stoArCvKE0jd7pHqRDsmKykO/30zig/FH6EqfNmEFwsPsQyow4+TbCW8s4jdFsq7qzX4E0peRmME
+alE7xhNbuKEx0dTH8E9g0dnKHY8/H3pex9xyhvViEjjeRHkHJn/KIbMKsk00GhDWo+E1edyO7LWA
+u72UGjD024pUKUiXozc=
+</ds:SignatureValue>
+<ds:KeyInfo Id="KeyInfo">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIH8DCCBtigAwIBAgIQU1zU3nyplmhGgMNo8/IC1zANBgkqhkiG9w0BAQUFADCCARYxCzAJBgNV
+BAYTAkVTMScwJQYJKoZIhvcNAQkBFhhjYTFAZmlybWFwcm9mZXNpb25hbC5jb20xIjAgBgNVBAcT
+GUMvIE11bnRhbmVyIDI0NCBCYXJjZWxvbmExMTAvBgNVBAsTKENvbnN1bHRlIGh0dHA6Ly93d3cu
+ZmlybWFwcm9mZXNpb25hbC5jb20xNDAyBgNVBAsTK0plcmFycXVpYSBkZSBDZXJ0aWZpY2FjaW9u
+IEZpcm1hcHJvZmVzaW9uYWwxLTArBgNVBAoTJEZpcm1hcHJvZmVzaW9uYWwgUy5BLiBOSUYgQS02
+MjYzNDA2ODEiMCAGA1UEAxMZQUMgRmlybWFwcm9mZXNpb25hbCAtIENBMTAeFw0wNzA2MjYwNzQy
+MzJaFw0xMDA2MjYwNzQyMzJaMIIBcjE3MDUGA1UEAxQuRS1GQUNUVVJBIC8gTWFudWVsIE1hcmNv
+IEzzcGV6IC8gTklGIDE3MTkxNDkxQTELMAkGA1UEBhMCRVMxOjA4BgNVBAoUMUNhamEgZGUgQWhv
+cnJvcyBkZSBsYSBJbm1hY3VsYWRhIGRlIEFyYWfzbiAvIDAwMDAxIDAeBgNVBAsTF0RlcGFydGFt
+ZW50byBkZSBDYXJ0ZXJhMR8wHQYDVQQMExZSZXNwb25zYWJsZSBkZSBDYXJ0ZXJhMTcwNQYDVQQH
+Ey5QYXNlbyBkZSBsYSBJbmRlcGVuZGVuY2lhLCAxMCAtIDUwMDA0IFpBUkFHT1pBMRIwEAYDVQQF
+EwkxNzE5MTQ5MUExFDASBgNVBAQUC01hcmNvIEzzcGV6MQ8wDQYDVQQqEwZNYW51ZWwxHDAaBgkq
+hkiG9w0BCQEWDW1tYXJjb0BjYWkuZXMxGTAXBgorBgEEAaRmAQMCEwlHNTAwMDA4MTkwgZ8wDQYJ
+KoZIhvcNAQEBBQADgY0AMIGJAoGBAPBQppDJ9cW+GwES03fEvCm8fBe5VE2I/1YvPJKRxZePAvvx
+EY25b4cay2gxH9z72yU8ctB7guRcW7TSA5g9PQ65LdgweIRjLUzyZgsnRBo4/kv12zFPvlJ8P7ky
+2UGJpXxPzNCrYrnojrRv9p04vd+P5MnK8rFcqUhpoR7UOMefAgMAjCGjggNcMIIDWDAqBgNVHRIE
+IzAhhh9odHRwOi8vd3d3LmZpcm1hcHJvZmVzaW9uYWwuY29tMBgGA1UdEQQRMA+BDW1tYXJjb0Bj
+YWkuZXMwDAYDVR0TAQH/BAIwADAOBgNVHQ8BAf8EBAMCBsAwPAYJYIZIAYb4QgEIBC8WLWh0dHA6
+Ly93d3cuZmlybWFwcm9mZXNpb25hbC5jb20vZG9jL2luZGV4Lmh0bTCBkQYJYIZIAYb4QgENBIGD
+FoGARXN0ZSBlcyB1biBjZXJ0aWZpY2FkbyByZWNvbm9jaWRvIHBhcmEgbGEgZW1pc2nzbiBkZSBm
+YWN0dXJhIGVsZWN0cvNuaWNhLiBDb25zdWx0ZSBodHRwOi8vd3d3LmZpcm1hcHJvZmVzaW9uYWwu
+Y29tL2RvYy9pbmRleC5odG0wHQYDVR0OBBYEFI8dqTM4EVf7iQxFsIvkF3kkLmzmMB8GA1UdIwQY
+MBaAFItQV1rBvZIAprflhV3D3ba1hpDSMIHqBgNVHSAEgeIwgd8wgdwGCysGAQQB5nkKAQYCMIHM
+MDcGCCsGAQUFBwIBFitodHRwOi8vd3d3LmZpcm1hcHJvZmVzaW9uYWwuY29tL2RvYy8xLzYuaHRt
+MIGQBggrBgEFBQcCAjCBgxqBgEVzdGUgZXMgdW4gY2VydGlmaWNhZG8gcmVjb25vY2lkbyBwYXJh
+IGxhIGVtaXNp824gZGUgZmFjdHVyYSBlbGVjdHLzbmljYS4gQ29uc3VsdGUgaHR0cDovL3d3dy5m
+aXJtYXByb2Zlc2lvbmFsLmNvbS9kb2MvaW5kZXguaHRtMHoGCCsGAQUFBwEBBG4wbDA+BggrBgEF
+BQcwAoYyaHR0cDovL3d3dy5maXJtYXByb2Zlc2lvbmFsLmNvbS9DQWNlcnRzL2ZwX2NhMS5jcnQw
+KgYIKwYBBQUHMAGGHm9jc3AuZmlybWFwcm9mZXNpb25hbC5jb206ODg4ODAvBggrBgEFBQcBAwQj
+MCEwCAYGBACORgEBMBUGBgQAjkYBAjALEwNFVVICAQYCAQQwRgYDVR0fBD8wPTA7oDmgN4Y1aHR0
+cDovL2NybC5maXJtYXByb2Zlc2lvbmFsLmNvbS9maXJtYXByb2Zlc2lvbmFsMS5jcmwwDQYJKoZI
+hvcNAQEFBQADggEBAHtV1saOMhIV/iAvKXRVlAJEeFZ+yT+6MKT7j71rJ23zT3OOxxnGtFh1x1b8
+jBFEcWJJ2kX2fLPvirQFDS+KSfNAAO460Y/sDZa5eubMCezgbMPDjvUYwQzThPpvPmOhrbZHnRDw
+sL88tTc5bG2lwTrmeuvQfmMwdOwNmawuLY/XutZfkBp4kgv3nXRYYoNbpOFAelSTOqGuD0178hyp
+0XIskja046Lo2dY4Vhr0sEPM8WUf0jqBRZchUQuhGJgyhbAMVbv7w411LH2MTbLERHZ9DtPLi7K/
+z9PKdWXCFjwgKHic26NHNH72Hi1j4yhlCZvzqQfFuGeaApFNzouI6pI=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+8FCmkMn1xb4bARLTd8S8Kbx8F7lUTYj/Vi88kpHFl48C+/ERjblvhxrLaDEf3PvbJTxy0HuC5Fxb
+tNIDmD09Drkt2DB4hGMtTPJmCydEGjj+S/XbMU++Unw/uTLZQYmlfE/M0KtiueiOtG/2nTi934/k
+ycrysVypSGmhHtQ4x58=
+</ds:Modulus>
+<ds:Exponent>jCE=</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature-SignedProperties"><xades:QualifyingProperties Target="#Signature"><xades:SignedProperties Id="Signature-SignedProperties"><xades:SignedSignatureProperties><xades:SigningTime>2009-06-01T11:13:42.402+0200</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>KqcDCJPgHdELiS3g2ROsHbLmU7w=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><xades:X509IssuerName>OID.1.3.6.1.4.1.4710.1.3.2=G50000819, EMAILADDRESS=mmarco@cai.es, GIVENNAME=Manuel, SN=Marco Lez, SERIALNUMBER=17191491A, L="Paseo de la Independencia, 10 - 50004 ZARAGOZA", TITLE=Responsable de Cartera, OU=Departamento de Cartera, O=Caja de Ahorros de la Inmaculada de Arag / 0000, C=ES, CN=E-FACTURA / Manuel Marco Lez / NIF 17191491A</xades:X509IssuerName><xades:X509SerialNumber>110807932459202433873529364449770734295</xades:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>http://www.facturae.es/politica de firma formato facturae/politica de firma formato facturae v3_0.pdf</xades:Identifier><xades:Description>Política de firma electrónica para facturación electrónica con formato Facturae</xades:Description></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>HQvPemjDslVpcNmaJPpbHzhdZ50=</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier><xades:SignerRole><xades:ClaimedRoles><xades:ClaimedRole>tercero</xades:ClaimedRole></xades:ClaimedRoles></xades:SignerRole></xades:SignedSignatureProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object>
+</ds:Signature></n1:Facturae>
