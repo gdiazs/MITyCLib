@@ -1003,7 +1003,7 @@ public class FirmaXML {
         		log.trace("Certificado emisor obtenido del X500: " + issuerName);
         	}
         	Charset charsetUtf = Charset.forName(ConstantesXADES.UTF8);
-        	issuerName = charsetUtf.decode(ByteBuffer.wrap(issuerName.getBytes())).toString();
+        	issuerName = charsetUtf.decode(ByteBuffer.wrap(issuerName.getBytes(charsetUtf))).toString();
         	if (log.isTraceEnabled()) {
         		log.trace("Emisor decodificado en UTF8:" + issuerName);
         	}
