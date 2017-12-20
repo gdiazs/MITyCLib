@@ -1,7 +1,5 @@
 language: java
-jdk:
-  - openjdk6
-script:
-  mvn clean install -DskipTests
+jdk: oraclejdk8
+script:  mvn clean install -DskipTests
 
 
