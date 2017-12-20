@@ -30,7 +30,7 @@
        <repository>
          <id>guillermo</id>
          <name>guillermo-repo</name>
-         <url>http://nexus-guillermods.rhcloud.com/nexus/content/groups/public</url>
+         <url>http://maven.petalslink.com/repo</url>
        </repository>
     </repositories>
 

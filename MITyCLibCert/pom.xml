@@ -18,15 +18,15 @@
 	</properties>
 	<dependencies>
 		<dependency>
-			<groupId>org.mozilla</groupId>
-			<artifactId>jss</artifactId>
-			<version>${jss.version}</version>
+		    <groupId>jss</groupId>
+		    <artifactId>jss</artifactId>
+		    <version>4.2.5</version>
 		</dependency>
 
 		<dependency>
-			<groupId>es.mityc.jumbo.adsi</groupId>
-			<artifactId>iaikPkcs11Wrapper</artifactId>
-			<version>${iaikPkcs11Wrapper.version}</version>
+		    <groupId>es.mityc.jumbo.adsi</groupId>
+		    <artifactId>iaikPkcs11Wrapper</artifactId>
+		    <version>1.1.7</version>
 		</dependency>
 
 		<dependency>
@@ -36,15 +36,15 @@
 		</dependency>
 
 		<dependency>
-			<groupId>es.gob</groupId>
-			<artifactId>DNIeJCAProvider</artifactId>
-			<version>${DNIeJCAProvider.version}</version>
+		    <groupId>DNIeJCAProvider</groupId>
+		    <artifactId>DNIeJCAProvider</artifactId>
+		    <version>1.4</version>
 		</dependency>
 
 		<dependency>
-			<groupId>sun.security</groupId>
-			<artifactId>sunpkcs11</artifactId>
-			<version>${sunpcks11.version}</version>
+		    <groupId>sunpkcs11</groupId>
+		    <artifactId>sunpkcs11</artifactId>
+		    <version>1.0</version>
 		</dependency>
 	</dependencies>
 

@@ -24,9 +24,10 @@
 		</dependency>
 
 		<dependency>
-			<groupId>es.mityc.jumbo.adsi</groupId>
-			<artifactId>xmlsec-1.4.2-ADSI</artifactId>
-			<version>${xmlsec-1.4.2-ADS.version}</version>
+		    <groupId>xmlsec</groupId>
+		    <artifactId>xmlsec</artifactId>
+		    <version>1.4.2-ADSI</version>
+		    <classifier>1.1</classifier>
 		</dependency>
 		<dependency>
 			<groupId>es.mityc.jumbo.adsi</groupId>
