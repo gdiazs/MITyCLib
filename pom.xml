@@ -17,7 +17,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<java.version>1.6</java.version>
+		<java.version>1.8</java.version>
 		<log4j.version>1.2.14</log4j.version>
 		<junit.version>4.3.1</junit.version>
 		<commons-loggin.version>1.1.1</commons-loggin.version>
